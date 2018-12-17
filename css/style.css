@@ -20,6 +20,7 @@ p {
 .wrapper {
     margin: 0 auto;
     max-width: 1600px;
+    text-align: center;
 }
 .headerBlock {
     background-color: #2d274d;
@@ -63,6 +64,9 @@ p {
     background: url(../img/headerBackground.jpg) no-repeat 100% 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     opacity: 0.85;
 }
 .headerBlockSlider h5, h2, p {
@@ -98,8 +102,9 @@ p {
     border: 1px solid #00e0d0;
     text-decoration: none;
     padding: 10px 15px;
-    margin: 24%;
+    margin: 25% 0 90% 0;
     box-sizing: border-box;
+
 
 }
 .button:hover {
@@ -108,13 +113,15 @@ p {
     transition-duration: 0.5s
 }
 .headerBlockSlider__circles {
+    display: flex;
     padding: 5%;
+}
+
+.headerBlockSlider__circles {
+    color: #fff;
 }
 .headerBlockSlider__circles-active {
     color: #00e0d0;
-}
-.headerBlockSlider__circles {
-    color: #fff;
 }
 .headerBlockSlider__circles:hover {
     color: #00e0d0;
