@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Playfair, sans-serif;
+
+    /*color: #5d5d5d;*/
+}
+
+a {
+    color: #00e0d0;
+}
+
+p {
+    margin: 0 0 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.headerBlock {
+    position: relative;
+  }
+.headerBlock img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+
+}
+.headerBlock__bgHeader {
+    position: absolute;
+}
+.headerBlock__bgHeaderOverlay {
+    position: absolute;
+    opacity: 0.85;
+}
+.headerBlockMenu {
+    display: flex;
+}
+.headerBlockMenu__logo {
+    position: absolute;
+    left: 5%;
+    width: 17%;
+    height: auto;
+}
+.headerBlockMenuItems ul {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 3% 10% 10% 33%;
+
+}
+.headerBlockMenuItems__item {
+    padding: 0 3% 0 3%;
+    font-size: 12px;
+}
+.headerBlockMenuItems__item a {
+    color: white;
+    text-decoration: none;
+}
+.headerBlockMenuItems__item a:hover {
+    color: #00e0d0;
+}
+.headerBlockMenuItems__item-active a {
+    color: #00e0d0;
+}
+.headerBlock__slider {
+    display: flex;
+
+}
+.headerBlock__slider h3 {
+    width: 100%;
+    position: absolute;
+     margin-top: 15%;
+    /*top: 90%;*/
+    /*left: 30%;*/
+    color: white;
+
+}
+.headerBlock__slider span {
+    position: absolute;
+    display: block;
+    margin-top: 25%;
+    width: 50px;
+    height: 1%;
+    color: #00e0d0;
+}
+.headerBlock__slider h6 {
+    position: absolute;
+    /*z-index: 1;*/
+    color: white;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    margin: 22% 1% 10% 1%;
+}
+.headerBlock__slider-button {
+    position: absolute;
+    /*background-color: #00e0d0;*/
+    border-radius: 5px;
+    text-decoration: none;
+    /* padding: 5px 30px; */
+    /*margin-top: 10px;*/
+    margin: 30% 40% 10% 40%;
+}
