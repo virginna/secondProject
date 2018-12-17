@@ -31,7 +31,7 @@ p {
     display: flex;
 }
 .headerBlock__logo {
-    margin-right: 20%;
+    margin: 0 10%;
 }
 .headerBlock__logo img {
     width: 100%;
@@ -68,6 +68,7 @@ p {
     justify-content: center;
     align-items: center;
     opacity: 0.85;
+    padding: 0 15%;
 }
 .headerBlockSlider h5, h2, p {
     color: #fff;
@@ -113,7 +114,6 @@ p {
     transition-duration: 0.5s
 }
 .headerBlockSlider__circles {
-    display: flex;
     padding: 5%;
 }
 
