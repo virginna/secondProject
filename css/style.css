@@ -64,7 +64,7 @@ h2 {
     color: #00e0d0; }
 
 .headerBlockSlider {
-    background: url(../img/headerBackground.jpg) no-repeat 50% 0;
+    background: url(../img/headerBackground.jpg) no-repeat 50% 0/cover;
     opacity: 0.85;
     padding: 10% 15%; }
 .headerBlockSlider h5, .headerBlockSlider h2, .headerBlockSlider p {
@@ -105,12 +105,19 @@ h2 {
     text-transform: uppercase; }
 .sectionHome__itemsText p {
     padding: 7px; }
-
-.sectionHome img {
-    margin: 3% 8% 3% 7%; }
+.sectionHome__itemsText h5 {
+    margin-bottom: 30px;
+}
+.sectionHome__itemsImage {
+    width: 100%;
+    height: auto;
+    margin: 3% 8% 3% 7%;
+}
+/*.sectionHome img {*/
+    /*margin: 3% 8% 3% 7%; }*/
 
 .sectionAbout {
-    background: url(../img/bgVideo.jpg) no-repeat 50% 0;
+    background: url(../img/bgVideo.jpg) no-repeat 50% 0/cover;
     opacity: 0.85;
     padding: 10% 15%; }
 .sectionAbout__item-active {
@@ -129,3 +136,27 @@ h2 {
     padding-top: 5%;
     text-transform: uppercase;
     font-family: Playfair Display; }
+
+.sectionExpertiseItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionExpertise__text {
+    margin-bottom: 40px;
+}
+.sectionExpertiseItem {
+    width: 33.3%;
+    /*padding: 10px;*/
+    box-sizing: border-box;
+    padding: 20px 60px;
+    /*align-items: center;*/
+}
+.sectionExpertiseItem__picture {
+    color: #00e0d0;
+    font-size: 30px;
+}
+.sectionExpertiseItem__title {
+    padding: 15px 0;
+
+}
