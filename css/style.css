@@ -160,3 +160,36 @@ h2 {
     padding: 15px 0;
 
 }
+.sectionTeams {
+    background: url(../img/bgTeam.jpg) no-repeat 50% 0/cover;
+    opacity: 0.85;
+    padding:0;
+}
+.sectionTeamsUpperText {
+    color: #ffffff;
+}
+.sectionTeamsUpperText h3 {
+    padding: 40px 0 20px 0;
+    text-transform: uppercase;
+    font-family: Playfair Display;
+}
+.sectionTeamsImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.sectionTeamsImages__picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 30px 10px 5px 10px;
+    align-items: center;
+}
+.sectionTeamsImages__text {
+    color: #ffffff;
+}
+.sectionTeams__lowerText {
+    color: #ffffff;
+    padding: 30px;
+}
