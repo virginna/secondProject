@@ -130,6 +130,7 @@ h2 {
 
 .sectionHome__items {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .sectionHome__itemsText {
@@ -205,7 +206,13 @@ h2 {
     /*padding: 10px;*/
     box-sizing: border-box;
     padding: 20px 60px;
+
     /*align-items: center;*/
+}
+.sectionExpertiseItem a {
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
 }
 
 .sectionExpertiseItem__picture {
@@ -221,7 +228,7 @@ h2 {
 .sectionTeams {
     background: url(../img/bgTeam.jpg) no-repeat 50% 0/cover;
     opacity: 0.85;
-    padding: 0;
+    padding: 30px;
 }
 
 .sectionTeamsUpperText {
@@ -257,7 +264,9 @@ h2 {
     color: #ffffff;
     padding: 30px;
 }
-
+.sectionWorks {
+    padding: 20px 0 40px 0;
+}
 .sectionWorks__text {
     display: flex;
     justify-content: space-between;
@@ -275,7 +284,9 @@ h2 {
     text-decoration: none;
     list-style: none;
 }
-
+.sectionWorks__text h6 a:hover {
+    color: #00e0d0;
+}
 /*.sectionWorks__bg {*/
 /*background: url(../img/bgDribble.jpg) no-repeat 50% 0/cover;*/
 /*opacity: 0.85;*/
@@ -284,6 +295,44 @@ h2 {
 .sectionWorks__bg img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
+.sectionPeopleSay {
+    background: url(../img/bgPeopleSay.jpg) no-repeat 50% 0/cover;
+    opacity: 0.85;
+    padding: 0;
+}
+.sectionPeopleSayText {
+    padding: 50px;
+    color: #ffffff;
+}
+.sectionPeopleSayText__icon {
+    padding-bottom: 20px;
+}
+.sectionPeopleSayText h4 {
+    font-family: Playfair Display;
+    font-weight: lighter;
+    padding: 20px;
+}
+.sectionPeopleSayImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.sectionPeopleSayImages__imagesOne {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 10px;
+}
+.sectionPeopleSayImages__imagesOne a {
+    color: #ffffff;
+}
+.sectionPeopleSay__imagesOne-active {
+    font-size: 60px;
+    color: #ffffff;
+}
+.sectionPeopleSay__imagesOne-active a {
+    color: #ffffff;
+}
