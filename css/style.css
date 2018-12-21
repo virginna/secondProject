@@ -336,3 +336,29 @@ h2 {
 .sectionPeopleSay__imagesOne-active a {
     color: #ffffff;
 }
+.sectionContact {
+    padding: 40px;
+}
+.sectionContactContent {
+    display: flex;
+
+}
+.sectionContactContent h4 {
+    font-family: Playfair Diplay;
+    text-transform: uppercase;
+}
+.sectionContactContentForm {
+    /*align-items: left;*/
+}
+.sectionContactContentForm__form {
+    height: 60px;
+    /*background-color: white;*/
+    color: #a3a3a3;
+    margin: 30px 30px 50px 5px;
+    border: 0;
+    padding: 5px 10px;
+}
+.sectionContactContentLogos__logoColumn {
+    display: flex;
+    flex-direction: column;
+}
