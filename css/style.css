@@ -19,7 +19,16 @@ p {
 h2 {
     font-family: Playfair Diplay;
 }
-
+h4 {
+    color: #ffffff;
+    font-family: Playfair Diplay;
+    text-transform: uppercase;
+}
+h6 {
+    color: #ffffff;
+    font-family: Roboto;
+   font-weight: lighter;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
@@ -209,6 +218,10 @@ h2 {
 
     /*align-items: center;*/
 }
+.sectionExpertiseItem__text h6 {
+    color: #000000;
+    font-weight: normal;
+}
 .sectionExpertiseItem a {
     color: #000000;
     text-decoration: none;
@@ -347,6 +360,7 @@ h2 {
 .sectionContactContent h4 {
     font-family: 'Playfair Diplay';
     text-transform: uppercase;
+    color: #000000;
 }
 .sectionContactContentForm {
     width: 50%;
@@ -395,4 +409,47 @@ padding: 5px 10px;
 }
 .sectionContactContentLogos__logoColumn img {
     padding: 10px;
+}
+.footer {
+    background: url(../img/bgFooter.jpg) no-repeat 50% 0/cover;
+}
+.footerContent {
+    padding-bottom: 20px;
+}
+.footerContentLine {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footerContentFirstColumn, .footerContentSecondColumn, .footerContentThirdColumn  {
+    width: 33%;
+    text-align: left;
+    margin: 10px 20px 40px 10px;
+}
+.footerContentSecondColumn h4 {
+    margin: 37px 0 18px 5px;
+}
+/*.footerContentSecondColumn {*/
+    /*text-align: left;*/
+/*}*/
+.footerContentThirdColumn h4 {
+    margin: 37px 0 18px 5px;
+
+}
+.footerContentRow {
+    display: flex;
+    justify-content: space-between;
+    /*margin-bottom: 40px;*/
+}
+/*.footerContentRow__texts {*/
+    /*margin: 0 0 20px 0;*/
+ /*}*/
+.footerContentRow__texts a {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+
 }
