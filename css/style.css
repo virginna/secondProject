@@ -17,16 +17,16 @@ p {
 }
 
 h2 {
-    font-family: Playfair Diplay;
+    font-family: 'Playfair Diplay';
 }
 h4 {
     color: #ffffff;
-    font-family: Playfair Diplay;
+    font-family: 'Playfair Diplay';
     text-transform: uppercase;
 }
 h6 {
     color: #ffffff;
-    font-family: Roboto;
+    font-family: 'Roboto';
    font-weight: lighter;
 }
 .wrapper {
@@ -61,6 +61,9 @@ h6 {
     z-index: 10;
     display: flex;
 }
+.burgerMenu {
+    display: none;
+}
 
 .headerBlock__line {
     display: flex;
@@ -75,7 +78,7 @@ h6 {
 .headerBlockMenu__item {
     padding: 5px 5px;
     font-size: 14px;
-    margin: 30px 0;
+    margin: 5% 0;
     text-decoration: none;
 }
 
@@ -104,7 +107,7 @@ h6 {
 
 .headerBlockSlider h2 {
     font-family: Playfair Display;
-    padding: 10% 0 0 0;
+    padding: 20% 0 0 0;
     /*justify-content: center;*/
     /*}*/
 }
@@ -470,9 +473,12 @@ padding: 5px 10px;
 .footerContentThirdColumn__form {
     display: flex;
 }
+.footerContentThirdColumn__form input {
+    height: 30px;
+}
 .footerContentThirdColumn__icon img {
     opacity: 0.85;
-    width: 40%;
+    width: 100%;
     margin-top: 1px;
 }
 .footerContentThirdColumn__social ul {
@@ -482,4 +488,54 @@ padding: 5px 10px;
 }
 .footerContentThirdColumn__social li a {
     margin-right: 2px;
+}
+@media screen and (max-width: 800px) {
+    .headerBlockMenu ul{
+        display: none;
+        position: absolute;
+
+    }
+    .burgerMenu {
+        display: block;
+        position: relative;
+        color: #ffffff;
+        /*width: 100%;*/
+        /*align-items: flex-start;*/
+        /*margin-left: 50px;*/
+        top: 30%;
+        right: 10%;
+        font-size: 30px;
+
+    }
+    .headerBlockMenu:hover ul {
+        display: block;
+        background-color: #00e0d0;
+    }
+    .sectionContactContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionContactContentLogos__logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerContentThirdColumn__social ul {
+        flex-direction: column;
+    }
+    .sectionHome__itemsImage img {
+        width: 100%;
+        height: auto;
+    }
+    .sectionContactContent h4 {
+        margin: 20px;
+    }
+    .sectionContactContentForm__form input {
+        width: 100%;
+    }
+    .footerContentThirdColumn__form input {
+        height: 30px;
+        width: 80%;
+    }
+
+
 }
