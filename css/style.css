@@ -73,9 +73,9 @@ h6 {
 }
 
 .headerBlockMenu__item {
-    padding: 10px 5px;
+    padding: 5px 5px;
     font-size: 14px;
-    margin: 5% 0;
+    margin: 30px 0;
     text-decoration: none;
 }
 
@@ -366,7 +366,7 @@ h6 {
     width: 50%;
     /*align-items: left;*/
 }
-.sectionContactContentForm form {
+.sectionContactContentForm__form form {
     /*height: 60px;*/
     /*background-color: white;*/
     color: #a3a3a3;
@@ -374,6 +374,7 @@ h6 {
     border: 0;
     /*padding: 5px 10px;*/
 }
+
 .sectionContactContentForm__form input {
 width: 80%;
 height: 30px;
@@ -452,4 +453,33 @@ padding: 5px 10px;
     list-style: none;
     color: #ffffff;
 
+}
+.footerContentSecondColumn__icon i {
+    color: #ffffff;
+    margin: 5px;
+}
+.footerContentSecondColumnAdress {
+    display: flex;
+}
+.footerContentSecondColumnPhone {
+    display: flex;
+}
+.footerContentSecondColumnPhone h6 {
+    margin: 7px;
+}
+.footerContentThirdColumn__form {
+    display: flex;
+}
+.footerContentThirdColumn__icon img {
+    opacity: 0.85;
+    width: 40%;
+    margin-top: 1px;
+}
+.footerContentThirdColumn__social ul {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+.footerContentThirdColumn__social li a {
+    margin-right: 2px;
 }
