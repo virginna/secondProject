@@ -5,7 +5,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    max-width: 1600px;
+    /*max-width: 1600px;*/
 }
 
 a {
@@ -292,6 +292,7 @@ h6 {
 .sectionWorks__text h4 {
     font-family: Playfair Diplay;
     text-transform: uppercase;
+    color: #000000;
 
 }
 
@@ -299,6 +300,7 @@ h6 {
     color: #000000;
     text-decoration: none;
     list-style: none;
+    font-weight: normal;
 }
 .sectionWorks__text h6 a:hover {
     color: #00e0d0;
@@ -308,12 +310,40 @@ h6 {
 /*opacity: 0.85;*/
 /*padding:0;*/
 /*}*/
-.sectionWorks__bg img {
-    width: 100%;
-    height: auto;
+/*.sectionWorks__bgFirstLine {*/
+    /**/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*max-width: 960px;*/
+    /*text-align: center;*/
+/*}*/
+
+.sectionWorks__bg {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
+.sectionWorks__bg img {
 
+    width: 100%;
+    height: auto;
+
+}
+.sectionWorks__bgFirstLine, .sectionWorks__bgSecondLine {
+    margin: -2px;
+    padding: 0;
+    display: flex;
+}
+/*.sectionWorks__bgSecondLine {*/
+    /*margin-bottom: 40px;*/
+/*}*/
+.sectionWorks__bgFirstLine img {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
 .sectionPeopleSay {
     background: url(../img/bgPeopleSay.jpg) no-repeat 50% 0/cover;
     opacity: 0.85;
@@ -521,16 +551,41 @@ padding: 5px 10px;
         display: block;
         background-color: #00e0d0;
     }
+    .sectionExpertiseItem {
+        width: 100%;
+    }
     .sectionContactContent {
         display: flex;
         flex-direction: column;
+        /*align-items: center;*/
+    }
+    .sectionContactContentForm {
+        width: 100%;
+    }
+    .sectionContactContentLogos {
+         width: 100%;
+    }
+    .sectionContactContentForm__form {
+        width: 100%;
+    }
+    .sectionWorks__bg {
+        flex-direction: column;
+    }
+    .sectionWorks__bgFirstLine, .sectionWorks__bgSecondLine {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     }
     .sectionContactContentLogos__logo {
         display: flex;
         flex-direction: column;
     }
+    .sectionContactContentForm__form input {
+        margin: 0 0 10px 0;
+    }
     .footerContentThirdColumn__social ul {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
     .sectionHome__itemsImage img {
         width: 100%;
@@ -546,6 +601,26 @@ padding: 5px 10px;
         height: 30px;
         width: 80%;
     }
+    .footerContentLine {
+        flex-direction: column;
+    }
+    .footerContentLine {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerContentFirstColumn, .footerContentSecondColumn, .footerContentThirdColumn {
+        width: 100%;
+        text-align: center;
+        margin: 5px;
+    }
+    .footerContentRow {
+        flex-direction: column;
+    }
+    .footerContentThirdColumn__form {
+        display: inline-flex;
+    }
 
-
+    /*.footerContentThirdColumn__social {*/
+        /*flex-direction: row;*/
+    /*}*/
 }
