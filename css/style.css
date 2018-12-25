@@ -476,11 +476,21 @@ padding: 5px 10px;
 .footerContentThirdColumn__form input {
     height: 30px;
 }
-.footerContentThirdColumn__icon img {
-    opacity: 0.85;
-    width: 100%;
-    margin-top: 1px;
+/*.footerContentThirdColumn__icon img {*/
+    /*opacity: 0.85;*/
+    /*width: 100%;*/
+    /*margin-top: 1px;*/
+/*}*/
+.footerContentThirdColumn__icon i {
+    font-size: 24px;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    color: #ffffff;
+    background-color: rgba(211, 212, 224, 0.5);
 }
+/*.footerContentThirdColumn__icon a:hover {*/
+    /*color: #00e0d0;*/
+/*}*/
 .footerContentThirdColumn__social ul {
     list-style: none;
     display: flex;
